@@ -1,0 +1,42 @@
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+body{
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   background-color: rgb(95, 111, 162);
+   margin: 0;
+   padding: 0;
+   display:flex;
+   justify-content: center;
+   height: 100vh;
+
+}
+/* targeting my profile card */
+.profile-card{
+border-radius: 15px;
+background-color: beige;
+box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .2);
+padding: 20px;
+}
+h1{
+    color: #333;
+
+}
+
+p{
+    color: #666;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(37, 40, 82);
+    background-color: rgb(209, 63, 27);
+    border-radius: 5px;
+}
